@@ -1,0 +1,17 @@
+{
+    "name": "alexsandro/combatezoonoses",
+    "description": "Ferramentas web para auxiliar na gestão do controle de zoonoses no Brasil.",
+    "require": {
+        "doctrine/orm": "^2.7"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Alex Oliveira",
+            "email": "alex.afortiori@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {"CombateZoonoses\\" : "src/"}
+    }
+}
